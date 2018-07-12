@@ -6,7 +6,7 @@
       <crossRef>http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt</crossRef>
     </crossRefs>
     <standardLicenseHeader>
-      Copyright (c)<alt name="copyright" match=".+">YEAR YOUR NAME</alt>
+      Copyright (c) <alt name="copyright" match=".+">YEAR YOUR NAME</alt>
       . Permission is granted to copy, distribute and/or modify this
       document under the terms of the GNU Free Documentation License,
       Version 1.2; with no Invariant Sections, no Front-Cover Texts,
@@ -16,6 +16,7 @@
     <notes>
       This license was released November 2002
     </notes>
+    <text>
     <titleText>
       <p>
         GNU Free Documentation License<br></br>
@@ -524,5 +525,6 @@
         General Public License, to permit their use in free software.
       </p>
     </optional>
+    </text>
   </license>
 </SPDXLicenseCollection>

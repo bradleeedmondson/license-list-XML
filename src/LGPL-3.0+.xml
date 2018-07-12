@@ -2,11 +2,14 @@
 <SPDXLicenseCollection xmlns="http://www.spdx.org/license">
    <license isOsiApproved="true" licenseId="LGPL-3.0+"  isDeprecated="true" deprecatedVersion="2.0rc2"
             name="GNU Lesser General Public License v3.0 or later">
-	  <notes>DEPRECATED: Use the license identifier LGPL-3.0-or-later</notes>
+      <obsoletedBys>
+         <obsoletedBy>LGPL-3.0-or-later</obsoletedBy>
+      </obsoletedBys>
       <crossRefs>
          <crossRef>http://www.gnu.org/licenses/lgpl-3.0-standalone.html</crossRef>
          <crossRef>http://www.opensource.org/licenses/LGPL-3.0</crossRef>
       </crossRefs>
+    <text>
       <titleText>
          <p>GNU LESSER GENERAL PUBLIC LICENSE 
         <br/>Version 3, 29 June 2007 
@@ -201,5 +204,6 @@
           </p>
         </item>
       </list>
+    </text>
   </license>
 </SPDXLicenseCollection>

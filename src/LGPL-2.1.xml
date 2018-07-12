@@ -3,16 +3,16 @@
   <license licenseId="LGPL-2.1" isOsiApproved="true"
   name="GNU Lesser General Public License v2.1 only"
   isDeprecated="true" deprecatedVersion="3.0">
+    <obsoletedBys>
+      <obsoletedBy>LGPL-2.1-only</obsoletedBy>
+      <obsoletedBy expression="LGPL-2.1+">LGPL-2.1-or-later</obsoletedBy>
+    </obsoletedBys>
     <crossRefs>
       <crossRef>http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html</crossRef>
       <crossRef>http://www.opensource.org/licenses/LGPL-2.1</crossRef>
     </crossRefs>
-    <notes>
-      DEPRECATED: Deprecated in lieu of more
-      explicit license identifier of LGPL-2.1-only
-    </notes>
     <standardLicenseHeader>
-      Copyright (C)<alt name="copyright" match=".+">year name of author</alt>
+      Copyright (C) <alt name="copyright" match=".+">year name of author</alt>
       <p>
         This library is free software; you can redistribute it and/or
         modify it under the terms of the GNU Lesser General Public
@@ -30,6 +30,7 @@
         Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
       </p>
     </standardLicenseHeader>
+    <text>
     <titleText>
       <p>
         GNU LESSER GENERAL PUBLIC LICENSE
@@ -656,5 +657,6 @@
         That's all there is to it!
       </p>
     </optional>
+    </text>
   </license>
 </SPDXLicenseCollection>

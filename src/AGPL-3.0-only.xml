@@ -7,7 +7,7 @@
       <crossRef>http://www.opensource.org/licenses/AGPL-3.0</crossRef>
     </crossRefs>
     <standardLicenseHeader>
-      Copyright (C)<alt name="copyright" match=".+">[year] [name of author]</alt>
+      Copyright (C) <alt name="copyright" match=".+">[year] [name of author]</alt>
       <p>
 	This program is free software: you can redistribute it and/or modify it
         under the terms of the GNU Affero General Public License as published
@@ -26,6 +26,7 @@
     <notes>
       This version was released: 19 November 2007
     </notes>
+    <text>
     <titleText>
       <p>
         GNU AFFERO GENERAL PUBLIC LICENSE<br></br>
@@ -849,5 +850,6 @@
 	&lt;http<optional>s</optional>://www.gnu.org/licenses/&gt;.
       </p>
     </optional>
+    </text>
   </license>
 </SPDXLicenseCollection>

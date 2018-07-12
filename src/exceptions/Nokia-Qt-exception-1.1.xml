@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SPDXLicenseCollection xmlns="http://www.spdx.org/license">
-   <exception licenseId="Nokia-Qt-exception-1.1" name="Nokia Qt LGPL exception 1.1">
+   <exception licenseId="Nokia-Qt-exception-1.1" name="Nokia Qt LGPL exception 1.1" isDeprecated="true" deprecatedVersion="3.1">
+      <obsoletedBys>
+         <obsoletedBy>Qt-LGPL-exception-1.1</obsoletedBy>
+      </obsoletedBys>
       <crossRefs>
          <crossRef>https://www.keepassx.org/dev/projects/keepassx/repository/revisions/b8dfb9cc4d5133e0f09cd7533d15a4f1c19a40f2/entry/LICENSE.NOKIA-LGPL-EXCEPTION</crossRef>
       </crossRefs>
-      <notes>Typically used by Nokia Qt to apply an exception to LGPL-2.1</notes>
+      <notes>DEPRECATED: Use Qt-LGPL-exception-1.1</notes>
+    <text>
       <titleText>
          <p>Nokia Qt LGPL Exception version 1.1</p>
       </titleText>
       <p>As an additional permission to the GNU Lesser General Public
-       License version 2.1, the object code form of a ""work that
-       uses the Library"" may incorporate material from a header file
+       License version 2.1, the object code form of a "work that
+       uses the Library" may incorporate material from a header file
        that is part of the Library. You may distribute such object
        code under terms of your choice, provided that:</p>
       <list>
@@ -56,5 +60,6 @@
       </list>
       <p>Furthermore, you are not required to apply this additional
        permission to a modified version of the Library.</p>
+    </text>
   </exception>
 </SPDXLicenseCollection>

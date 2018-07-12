@@ -6,7 +6,7 @@
       <crossRef>http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html</crossRef>
     </crossRefs>
     <standardLicenseHeader>
-      Copyright (C)<alt name="copyright" match=".+">year name of author</alt>
+      Copyright (C) <alt name="copyright" match=".+">year name of author</alt>
       <p>This library is free software; you can redistribute it and/or modify it
       under the terms of the GNU Library General Public License as published
         by the Free Software Foundation; version 2.</p> 
@@ -24,6 +24,7 @@
       been superseded by LGPL v2.1 This refers to when this
       LGPL 2.0 only is being used (as opposed to "or later).
     </notes>
+    <text>
     <titleText>
       <p>
         GNU LIBRARY GENERAL PUBLIC LICENSE
@@ -633,5 +634,6 @@
         That's all there is to it!
       </p>
     </optional>
+    </text>
   </license>
 </SPDXLicenseCollection>

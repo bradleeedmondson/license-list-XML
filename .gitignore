@@ -4,5 +4,8 @@
 !/.gitignore
 !/.travis.yml
 
+/resources
+/licenseListPublisher-*.jar*
+
 # nodeJS
 node_modules/

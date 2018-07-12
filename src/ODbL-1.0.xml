@@ -5,10 +5,13 @@
       <crossRefs>
          <crossRef>http://www.opendatacommons.org/licenses/odbl/1.0/</crossRef>
       </crossRefs>
+    <text>
       <titleText>
+        <alt name="header1" match="#*"/>
          <p>ODC Open Database License (ODbL)</p>
       </titleText>
       <optional>
+        <alt name="header2" match="#*"/>
          <p>Preamble</p>
          <p>The Open Database License (ODbL) is a license agreement intended to allow users to freely share, modify,
          and use this Database while maintaining this same freedom for others. Many databases are covered by
@@ -46,7 +49,8 @@
              Database as part of a Collective Database in any way that enables a Person to make or receive
              copies of the Database or a Derivative Database. Conveying does not include interaction with a
              user through a computer network, or creating and Using a Produced Work, where no transfer of a
-             copy of the Database or a Derivative Database occurs. "Contents" - The
+             copy of the Database or a Derivative Database occurs.</p> 
+             <p>  "Contents" - The
              contents of this Database, which includes the information, independent works, or other
              material collected into the Database. For example, the contents of the Database could be
              factual data or works such as images, audiovisual material, text, or sounds.</p>
@@ -306,8 +310,14 @@
                   <p>DATABASE NAME should be replaced with the name of the Database and a hyperlink to the URI of
                the Database. "Open Database License" should contain a hyperlink to the URI of
                the text of this License. If hyperlinks are not possible, You should include the plain
-               text of the required URI's with the above notice. 4.4 Share alike.</p>
+               text of the required URI's with the above notice.</p>
                </item>
+	    </list>
+		</item>
+		<item>
+			<bullet>4.4</bullet>
+			Share alike.
+			<list>
                <item>
                   <bullet>a.</bullet>
             Any Derivative Database that You Publicly Use must be only under the terms of:
@@ -644,6 +654,6 @@
              in this License in order to meet the terms of this License.
         </item>
       </list>
-    
+    </text>
   </license>
 </SPDXLicenseCollection>

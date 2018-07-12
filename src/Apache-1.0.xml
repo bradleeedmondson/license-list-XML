@@ -4,6 +4,7 @@
       <crossRefs>
          <crossRef>http://www.apache.org/licenses/LICENSE-1.0</crossRef>
       </crossRefs>
+    <text>
       <copyrightText>
          <p>Copyright (c) 1995-1999 The Apache Group. All rights reserved.</p>
       </copyrightText>
@@ -32,7 +33,7 @@
         <item>
             <bullet>4.</bullet>
           The 
-            <alt match="name|names|name\(s\)" name="nameClause4">name</alt>
+            <alt match="name\(s\)|name|name" name="nameClause4">name</alt>
             <alt match=".+" name="organizationClause4">"Apache Server" and "Apache Group"</alt> must
             not be used to endorse or promote products derived from this software without prior written
             permission. For written permission, please contact 
@@ -72,5 +73,6 @@
          Applications, University of Illinois, Urbana-Champaign. For more information on the Apache Group and
          the Apache HTTP server project, please see &lt;http://www.apache.org/&gt;.</optional>
       </p>
+    </text>
   </license>
 </SPDXLicenseCollection>

@@ -3,13 +3,13 @@
   <license licenseId="GFDL-1.1" isOsiApproved="false"
   name="GNU Free Documentation License v1.1"
   isDeprecated="true" deprecatedVersion="3.0">
+    <obsoletedBys>
+      <obsoletedBy>GFDL-1.1-only</obsoletedBy>
+      <obsoletedBy expression="GFDL-1.1+">GFDL-1.1-or-later</obsoletedBy>
+    </obsoletedBys>
     <crossRefs>
       <crossRef>http://www.gnu.org/licenses/old-licenses/fdl-1.1.txt</crossRef>
     </crossRefs>
-    <notes>
-      DEPRECATED: Deprecated in lieu of more
-      explicit license identifier of GFDL-1.1-only
-    </notes>
     <standardLicenseHeader>
       Copyright (c) <alt name="copyright" match=".+">YEAR YOUR NAME</alt>
       . Permission is granted to copy, distribute and/or modify this
@@ -20,6 +20,7 @@
       Back-Cover Texts being LIST. A copy of the license is included
       in the section entitled "GNU Free Documentation License".
     </standardLicenseHeader>
+    <text>
     <titleText>
       <p>
         GNU Free Documentation License<br></br>
@@ -479,5 +480,6 @@
         General Public License, to permit their use in free software.
       </p>
     </optional>
+    </text>
   </license>
 </SPDXLicenseCollection>

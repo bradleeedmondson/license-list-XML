@@ -3,16 +3,16 @@
   <license licenseId="GPL-3.0" isOsiApproved="true"
   name="GNU General Public License v3.0 only"
   isDeprecated="true" deprecatedVersion="3.0">
+    <obsoletedBys>
+      <obsoletedBy>GPL-3.0-only</obsoletedBy>
+      <obsoletedBy expression="GPL-3.0+">GPL-3.0-or-later</obsoletedBy>
+    </obsoletedBys>
     <crossRefs>
       <crossRef>http://www.gnu.org/licenses/gpl-3.0-standalone.html</crossRef>
       <crossRef>http://www.opensource.org/licenses/GPL-3.0</crossRef>
     </crossRefs>
-    <notes>
-      DEPRECATED: Deprecated in lieu of more
-      explicit license identifier of GPL-3.0-only
-    </notes>
     <standardLicenseHeader>
-      Copyright (C)<alt name="copyright"
+      Copyright (C) <alt name="copyright"
       match=".+">&lt;year&gt; &lt;name of author&gt;</alt>
       <p>
         This program is free software: you can redistribute it and/or
@@ -31,6 +31,7 @@
         &lt;http<optional>s</optional>://www.gnu.org/licenses/&gt;.
       </p>
     </standardLicenseHeader>
+    <text>
     <titleText>
       <p>
         GNU GENERAL PUBLIC LICENSE<br></br>
@@ -849,8 +850,9 @@
         linking proprietary applications with the library. If this
         is what you want to do, use the GNU Lesser General Public
 	License instead of this License. But first, please read
-	&lt;http<optional>s</optional>://www.gnu.org/philosophy/why-not-lgpl.html&gt;.
+	&lt;http<optional>s</optional>://www.gnu.org/<alt match="philosophy|licenses" name="philicenses">licenses</alt>/why-not-lgpl.html&gt;.
       </p>
     </optional>
+    </text>
   </license>
 </SPDXLicenseCollection>
